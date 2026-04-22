@@ -4,7 +4,7 @@ pkgs.rosPackages.jazzy.buildRosPackage rec {
     pname = "stewart-interfaces";
     version = "0.0.0";
 
-    src = ../../src/stewart_interfaces;
+    src = ../../src/ros_packages/stewart_interfaces;
 
     buildType = "ament_cmake";
     buildInputs =

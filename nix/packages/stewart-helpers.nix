@@ -4,7 +4,7 @@ pkgs.rosPackages.jazzy.buildRosPackage rec {
     pname = "stewart-helpers";
     version = "0.0.0";
 
-    src = ../../src/stewart_helpers;
+    src = ../../src/ros_packages/stewart_helpers;
 
     buildType = "ament_python";
     checkInputs =

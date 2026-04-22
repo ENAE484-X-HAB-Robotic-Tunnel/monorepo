@@ -47,6 +47,9 @@
                 flake-utils.follows = "flake-utils";
             };
         };
+
+        # include our src files
+        self.submodules = true;
     };
 
     outputs =

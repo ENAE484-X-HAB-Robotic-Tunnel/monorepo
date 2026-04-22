@@ -4,7 +4,7 @@ pkgs.rosPackages.jazzy.buildRosPackage rec {
     pname = "ik-solver";
     version = "0.0.0";
 
-    src = ../../src/ik_solver;
+    src = ../../src/ros_packages/ik_solver;
 
     buildType = "ament_python";
     checkInputs =

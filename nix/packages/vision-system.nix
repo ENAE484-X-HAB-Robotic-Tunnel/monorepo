@@ -4,7 +4,7 @@ pkgs.rosPackages.jazzy.buildRosPackage rec {
     pname = "vision-system";
     version = "0.0.0";
 
-    src = ../../src/vision_system;
+    src = ../../src/ros_packages/vision_system;
 
     buildType = "ament_python";
     checkInputs =
